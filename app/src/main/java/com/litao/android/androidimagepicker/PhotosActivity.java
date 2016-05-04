@@ -85,13 +85,18 @@ public class PhotosActivity extends BaseGalleryActivity implements View.OnClickL
         }
     }
 
+    /**
+     *
+     * @return
+     */
     @Override
     public Configuration getConfiguration() {
+        //default configuration
         Configuration cfg=new Configuration.Builder()
                 .hasCamera(true)
                 .hasShade(true)
                 .hasPreview(true)
-                .setSpaceSize(3)
+                .setSpaceSize(4)
                 .setPhotoMaxWidth(120)
                 .setCheckBoxColor(0xFF3F51B5)
                 .setDialogHeight(Configuration.DIALOG_HALF)
@@ -131,6 +136,10 @@ public class PhotosActivity extends BaseGalleryActivity implements View.OnClickL
         finish();
     }
 
+    /**
+     *
+     * @param entry
+     */
     @Override
     public void onPhotoClick(PhotoEntry entry) {
 
