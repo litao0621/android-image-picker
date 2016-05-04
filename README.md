@@ -1,6 +1,7 @@
 # android-image-picker
 Android library project for choose multiple images from the device.
 
+## [中文](https://github.com/sd6352051/android-image-picker/blob/master/README-ZH.md)
 # Screenshot
 ![Image][1]
 
@@ -38,12 +39,7 @@ public class YourActivity extends BaseGalleryActivity{
   @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_photos);
-        EventBus.getDefault().register(this);
-        setTitle("Photos");
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-        getSupportActionBar().setDisplayShowHomeEnabled(true);
-        initView();
+        setContentView(R.layout.activity_main);
         attachFragment(R.id.gallery_root);
     }
 ```
@@ -108,6 +104,7 @@ public class YourActivity extends BaseGalleryActivity{
 `sendPhotos()`: `onChoosePhotos(List<PhotoEntry> entries)` method will be called 
 
 [see the source cede of sample](https://github.com/sd6352051/android-image-picker/tree/master/app)
+[download sample apk](https://github.com/sd6352051/android-image-picker/blob/master/sample.apk)
 
 # Configuration
 default configuration
