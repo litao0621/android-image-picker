@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.litao.android.lib.view.SquaredImageView
+        android:id="@+id/image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerInside"
+        android:background="@color/photo_background_color"/>
+    <com.litao.android.lib.view.SquaredView
+        android:id="@+id/shade"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/shade_background_color"
+        android:visibility="invisible"
+        />
+    <com.litao.android.lib.view.MDCheckBox
+        android:id="@+id/checkbox"
+        android:layout_width="22dp"
+        android:layout_height="22dp"
+        android:layout_margin="4dp"
+        android:layout_alignParentRight="true"
+        />
+
+</RelativeLayout>

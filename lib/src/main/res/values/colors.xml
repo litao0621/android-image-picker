@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="photo_background_color">#FF424242</color>
+    <color name="shade_background_color">#66000000</color>
+    <color name="album_text_background_color">#FFFFFFFF</color>
+    <color name="grid_background_color">#FF212121</color>
+    <color name="grid_click_background_color">#FF424242</color>
+</resources>

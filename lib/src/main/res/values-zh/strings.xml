@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="album">相册</string>
+    <string name="select_maximum">最多选择%1$d张</string>
+</resources>
