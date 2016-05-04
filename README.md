@@ -16,6 +16,13 @@ dependencies {
 ```
 
 #How to get started
+### Step 0:  Permission 
+``` xml
+	<uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+```
+
+
 ### Step 1:  extends `BaseGalleryActivity` 
 ``` java
 public class YourActivity extends BaseGalleryActivity{

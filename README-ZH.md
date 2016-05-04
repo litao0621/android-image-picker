@@ -15,6 +15,11 @@ dependencies {
 ```
 
 # 如何使用
+### Step 0:  Permission
+``` xml
+	<uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+```
 ### Step 1:  让你的activity 继承 `BaseGalleryActivity` 
 ``` java
 public class YourActivity extends BaseGalleryActivity{
