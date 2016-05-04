@@ -35,7 +35,7 @@ public class YourActivity extends BaseGalleryActivity{
         android:id="@+id/gallery_root"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:paddingBottom="48dp"/>
+        />
 </RelativeLayout>      
 ```
 ### Step 3:  在你的activity中调用此 `attachFragment(R.id.gallery_root)` 
