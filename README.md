@@ -74,26 +74,31 @@ public class YourActivity extends BaseGalleryActivity{
     @Override
     public void onSelectedCountChanged(int count) {
         //This method will be invoked when the selected photo count is changed.
+        //count: selected photos count
     }
 
     @Override
     public void onAlbumChanged(String name) {
         //This method will be invoked when the albums name is changed.
+        //name: current albums name
     }
 
     @Override
     public void onTakePhoto(PhotoEntry entry) {
         //This method will be invoked when you take the photo.
+        //entry: take photo information just now
     }
 
     @Override
     public void onChoosePhotos(List<PhotoEntry> entries) {
         //This method will be invoked when you choose photos then call sendPhotos() method.
+        //entries: selected photos information
     }
 
     @Override
     public void onPhotoClick(PhotoEntry entry) {
         //This method will be invoked when you click photo
+        //entry： clicked photo information
     }
 
 ```
@@ -104,6 +109,7 @@ public class YourActivity extends BaseGalleryActivity{
 `sendPhotos()`: `onChoosePhotos(List<PhotoEntry> entries)` method will be called 
 
 [see the source cede of sample](https://github.com/sd6352051/android-image-picker/tree/master/app)
+
 [download sample apk](https://github.com/sd6352051/android-image-picker/blob/master/sample.apk)
 
 # Configuration
@@ -136,7 +142,20 @@ Configuration cfg=new Configuration.Builder()
 ```
   
 
+# License
+Copyright 2016 litao.
 
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+   http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
 
 
 
