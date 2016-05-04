@@ -1,8 +1,18 @@
 # android-image-picker
 Android library project for choose multiple images from the device.
 
-# screenshot
+# Screenshot
 ![Image][1]
+
+# Gradle
+``` groovy
+repositories { 
+    maven { url "https://jitpack.io" }
+}
+dependencies {
+    compile 'com.github.sd6352051:android-image-picker:v1.0.1'
+}
+```
 
 #How to get started
 ### Step 1:  extends `BaseGalleryActivity` 
