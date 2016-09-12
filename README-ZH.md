@@ -10,7 +10,7 @@ repositories {
     maven { url "https://jitpack.io" }
 }
 dependencies {
-    compile 'com.github.sd6352051:android-image-picker:v1.0.1'
+    compile 'com.github.sd6352051:android-image-picker:v1.0.2'
 }
 ```
 
