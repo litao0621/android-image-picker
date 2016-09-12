@@ -98,6 +98,11 @@ public class PhotosAdapter extends RecyclerView.Adapter<PhotosAdapter.ViewHolder
         return vh;
     }
 
+    @Override
+    public void onViewRecycled(ViewHolder holder) {
+        super.onViewRecycled(holder);
+        Glide.clear(holder.mImageView);
+    }
 
     @Override
     public void onBindViewHolder(ViewHolder viewHolder, int i) {
